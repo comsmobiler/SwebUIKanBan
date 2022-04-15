@@ -56,11 +56,12 @@ namespace SwebApplication5
             // menuView1
             // 
             this.menuView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(39)))), ((int)(((byte)(81)))));
+            this.menuView1.Color = System.Drawing.Color.White;
             this.menuView1.DefaultIcon = "tasks";
             this.menuView1.FontSize = 15;
             this.menuView1.Name = "menuView1";
             this.menuView1.Size = new System.Drawing.Size(200, 0);
-            this.menuView1.Theme = Swebui.Controls.MenuViewTheme.Dark;
+            this.menuView1.SubColor = System.Drawing.Color.White;
             this.menuView1.MenuItemClick += new Swebui.Controls.MenuViewItemClickEventHandler(this.menuView1_MenuItemClick);
             // 
             // tabPageView1
