@@ -69,7 +69,6 @@ namespace SwebApplication5
             this.panel16 = new Swebui.Controls.Panel();
             this.runDayLab = new Swebui.Controls.Label();
             this.label26 = new Swebui.Controls.Label();
-            this.highLightLabel1 = new Smobiler.Plugins.HighLightLabel();
             this.panel3 = new Swebui.Controls.Panel();
             this.panel9 = new Swebui.Controls.Panel();
             this.fontIcon4 = new Swebui.Controls.FontIcon();
@@ -687,11 +686,7 @@ namespace SwebApplication5
             this.label26.Text = "天";
             this.label26.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
-            // highLightLabel1
-            // 
-            this.highLightLabel1.Name = "highLightLabel1";
-            this.highLightLabel1.Size = new System.Drawing.Size(0, 0);
-            // 
+    
             // panel3
             // 
             this.panel3.Border = new Swebui.Controls.Border(2F);
@@ -1271,7 +1266,6 @@ namespace SwebApplication5
         private Label label2;
         private Panel panel4;
         private Panel panel7;
-        private Smobiler.Plugins.HighLightLabel highLightLabel1;
         private SOLabel soLabel1;
         private SOLabel soLabel2;
         private SOLabel soLabel3;
